@@ -1,0 +1,7 @@
+—§‚¿ã‚°
+docker-compose  build
+docker-compose up -d
+
+ƒNƒŠ[ƒ“‚É—§‚¿ã‚°‚È‚¨‚·
+docker-compose build --no-cache
+docker-compose up -d

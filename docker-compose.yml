@@ -1,0 +1,8 @@
+version: "2"
+services:
+  python:
+    build: ./python
+    container_name: test-python
+    volumes:
+      - ./workspace:/workspace
+    tty: true
