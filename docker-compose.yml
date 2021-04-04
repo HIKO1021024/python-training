@@ -6,3 +6,7 @@ services:
     volumes:
       - ./workspace:/workspace
     tty: true
+  dynamodb-local:
+    build: ./dynamodb-local
+    container_name: test-dynamodb-local
+    tty: true
